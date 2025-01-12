@@ -38,7 +38,7 @@ input value{
 }
 .calculator form input:active{
   color: #6A24B3;
-  background: #970C55;
+  background: #0D7C35;
 }
 .display{
   display: flex;
