@@ -16,7 +16,7 @@ font-size: 20px;
 .calculator{
   background: linear-gradient(#4B128F,#0B5D56 );
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 100px;
 }
 input value{
   background-color: yellowgreen;
@@ -38,7 +38,7 @@ input value{
 }
 .calculator form input:active{
   color: #6A24B3;
-  background: #0D7C35;
+  background: #341154D4;
 }
 .display{
   display: flex;
@@ -48,7 +48,7 @@ input value{
 }
 .display input{
   text-align: right;
-  font-size: 25px;
+  font-size: 55px;
   flex: 463;
   box-shadow: none;
 }
@@ -56,19 +56,23 @@ form input.equal{
   width: 130px;
 }
 form input.operator{
- background: linear-gradient(#44171E,#1C2895);
+ background: linear-gradient(#44171E,#1C2895,#44463FC4);
 }
 form input value{
   color: red;
+  
 }
 #operator{
-  color: #8C2EB7;
-  font-size: 20px;
-}
-.operator:active{
- color: #9622C9; 
+  color: white;
+  font-size: 30px;
+  background: linear-gradient(#B5158F8C,#1516B58C);
 }
 form input.two{
   background: linear-gradient(#B5158F8C,#1516B58C);
-  text-decoration: none;
+}
+form input.twos{
+  background: linear-gradient(#B5158F8C,#1516B58C);
+}
+form input.three {
+  background: linear-gradient(#B5158F8C, #1516B58C);
 }
